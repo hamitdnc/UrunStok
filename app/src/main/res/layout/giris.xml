@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="10"
+        android:hint="Ürün Adı" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.23"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Tarih" />
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Saat" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Miktar" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="İrsaliye No" />
+
+    <Button
+        android:id="@+id/btnekle"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Ekle" />
+
+    <Button
+        android:id="@+id/btnveri"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:text="Son Ürün Kontrol" />
+</LinearLayout>

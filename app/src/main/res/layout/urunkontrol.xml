@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="10"
+        android:hint="Ürün Adı" />
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.23"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Tarih" />
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Miktar" />
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="İrsaliye No" />
+    <Button
+        android:id="@+id/btnguncel"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Güncelle" />
+</LinearLayout>
